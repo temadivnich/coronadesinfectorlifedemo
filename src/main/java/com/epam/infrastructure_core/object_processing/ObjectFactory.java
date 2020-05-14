@@ -1,17 +1,13 @@
-package com.epam;
+package com.epam.infrastructure_core.object_processing;
 
-import lombok.Setter;
+import com.epam.infrastructure_core.ApplicationContext;
+import com.epam.infrastructure_core.proxy.ProxyConfigurator;
 import lombok.SneakyThrows;
 
 import javax.annotation.PostConstruct;
-import java.io.BufferedReader;
-import java.io.FileReader;
 import java.lang.reflect.*;
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
-import java.util.stream.Stream;
 
 import static java.util.stream.Collectors.toMap;
 

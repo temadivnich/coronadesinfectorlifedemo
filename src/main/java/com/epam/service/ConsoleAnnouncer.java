@@ -1,4 +1,6 @@
-package com.epam;
+package com.epam.service;
+
+import com.epam.infrastructure_core.annotations.InjectByType;
 
 /**
  * @author Evgeny Borisov

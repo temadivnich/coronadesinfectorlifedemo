@@ -1,5 +1,7 @@
-package com.epam;
+package com.epam.infrastructure_core.object_processing;
 
+import com.epam.infrastructure_core.ApplicationContext;
+import com.epam.infrastructure_core.annotations.InjectProperty;
 import lombok.SneakyThrows;
 
 import java.io.BufferedReader;
@@ -27,7 +29,7 @@ public class InjectPropertyAnnotationObjectConfigurator implements ObjectConfigu
 
     @Override
     @SneakyThrows
-    public void configure(Object t,ApplicationContext context) {
+    public void configure(Object t, ApplicationContext context) {
         Class<?> implClass = t.getClass();
         for (Field field : implClass.getDeclaredFields()) {
             InjectProperty annotation = field.getAnnotation(InjectProperty.class);

@@ -1,4 +1,9 @@
-package com.epam;
+package com.epam.service;
+
+import com.epam.infrastructure_core.annotations.InjectByType;
+import com.epam.model.Room;
+import com.epam.service.Announcer;
+import com.epam.service.Policeman;
 
 /**
  * @author Evgeny Borisov

@@ -1,4 +1,4 @@
-package com.epam;
+package com.epam.service;
 
 /**
  * @author Evgeny Borisov

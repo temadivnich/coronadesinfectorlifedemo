@@ -1,4 +1,4 @@
-package com.epam;
+package com.epam.infrastructure_core;
 
 import org.reflections.Reflections;
 

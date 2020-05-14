@@ -1,4 +1,7 @@
-package com.epam;
+package com.epam.service;
+
+import com.epam.infrastructure_core.annotations.InjectProperty;
+import com.epam.infrastructure_core.annotations.Singleton;
 
 /**
  * @author Evgeny Borisov

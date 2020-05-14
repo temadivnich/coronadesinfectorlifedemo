@@ -1,5 +1,7 @@
-package com.epam;
+package com.epam.infrastructure_core.object_processing;
 
+import com.epam.infrastructure_core.ApplicationContext;
+import com.epam.infrastructure_core.annotations.InjectByType;
 import lombok.SneakyThrows;
 
 import java.lang.reflect.Field;
